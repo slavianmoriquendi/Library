@@ -1,27 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="18e25498-5ec8-47fa-81bc-8e7bc74cc21d" name="Changes" comment="" />
+    <list default="true" id="18e25498-5ec8-47fa-81bc-8e7bc74cc21d" name="Changes" comment="libbrary">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibraryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/LibraryLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/LibraryLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/LibraryResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/LibraryResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/ResourceStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/ResourceStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/ResourceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/ResourceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/UserStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Wypożyczenie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Wypożyczenie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/exceptions/UnavaiableResourceOrUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/exceptions/UnavaiableResourceOrUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/LibraryResourcesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/LibraryResourcesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/WypożyczenieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/WypożyczenieTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="28nmZd3pCim09VPBALT0von4vtT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asawula/IdeaProjects/Library&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LibraryApp">
+    <configuration name="LibraryApp" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LibraryApp" />
+      <module name="Library" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WypożyczenieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.WypożyczenieTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WypożyczenieTest.schouldSetProperPrzewidywanDataOddania" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.WypożyczenieTest" />
+      <option name="METHOD_NAME" value="schouldSetProperPrzewidywanDataOddania" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LibraryApp" />
+      <item itemvalue="JUnit.WypożyczenieTest" />
+      <item itemvalue="JUnit.WypożyczenieTest.schouldSetProperPrzewidywanDataOddania" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WypożyczenieTest" />
+        <item itemvalue="JUnit.WypożyczenieTest.schouldSetProperPrzewidywanDataOddania" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +152,20 @@
       <updated>1651860783828</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="libbrary" />
+    <option name="LAST_COMMIT_MESSAGE" value="libbrary" />
   </component>
 </project>

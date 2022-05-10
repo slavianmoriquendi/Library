@@ -1,2 +1,8 @@
-package domain;public enum ResourceStatus {
+package domain;
+
+public enum ResourceStatus {
+
+    AVAILABLE,
+    NOTAVAILABLE;
+
 }

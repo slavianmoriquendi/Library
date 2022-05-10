@@ -2,10 +2,9 @@ package domain;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.List;
 import java.util.Scanner;
 
-public class LibraryResources {
+public class LibraryResource {
     private String libraryNumber;
     private String title;
     private String author;
@@ -41,26 +40,39 @@ public class LibraryResources {
         setLibraryNumber(libraryNumber);
     }
 
-    public LibraryResources addNewResourceValues() {
-        LibraryResources newLibraryElement = new LibraryResources();
+    public void addNewResourceParameters(LibraryResource newLibraryElement) {
+
         Scanner scanner1 = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
         Scanner scanner3 = new Scanner(System.in);
-        System.out.println("What type of element You want to add? ");
+        System.out.println("What type of element You want to add? (BOOK/JOURNAL/DVD)");
         newLibraryElement.setResourceType(ResourceType.valueOf(scanner1.next().toUpperCase()));
         System.out.println("Add title: ");
         newLibraryElement.setTitle(scanner2.nextLine());
-        System.out.println("Add author: ");
+        System.out.println("Add author: (NAME SURNAME)");
         newLibraryElement.setAuthor(scanner3.nextLine());
         newLibraryElement.setResourceStatus(ResourceStatus.AVAILABLE);
         newLibraryElement.settingLibraryNumber();
+        System.out.println("You added following library Resource: ");
+        System.out.println(newLibraryElement.toString());
 
-        return newLibraryElement;
+
     }
 
 
 
-    public LibraryResources() {}
+
+    public LibraryResource(
+                           String title,
+                           String author,
+                           ResourceType resourceType,
+                           ResourceStatus resourceStatus) {
+        this.title = title;
+        this.author = author;
+        this.resourceType = resourceType;
+        this.resourceStatus = resourceStatus;
+    }
+    public LibraryResource() {}
 
     public String getLibraryNumber() {return libraryNumber;}
     public String getTitle() {return title;}
@@ -74,4 +86,14 @@ public class LibraryResources {
     public void setResourceType(ResourceType resourceType) {this.resourceType = resourceType;}
     public void setResourceStatus(ResourceStatus resourceStatus) {this.resourceStatus = resourceStatus;}
 
+    @Override
+    public String toString() {
+        return "LibraryResource{" +
+                "libraryNumber='" + libraryNumber + '\'' +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", resourceType=" + resourceType +
+                ", resourceStatus=" + resourceStatus +
+                '}';
+    }
 }
